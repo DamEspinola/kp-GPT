@@ -1,4 +1,4 @@
-# yes_no_app
+# kp_GPT_app
 
 A new Flutter project.
 
