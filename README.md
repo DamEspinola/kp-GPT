@@ -9,7 +9,7 @@ A new Flutter project.
 
 
 ## 📱 Vista Previa
-[![imagen](lib/assets/chat-ia.png)]
+![imagen](lib/assets/chat-ia.png)
 
 
 
