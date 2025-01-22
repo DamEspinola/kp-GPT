@@ -13,6 +13,9 @@ lib/assets/.env
 .swiftpm/
 migrate_working_dir/
 
+# .gitignore
+.env
+
 # IntelliJ related
 *.iml
 *.ipr

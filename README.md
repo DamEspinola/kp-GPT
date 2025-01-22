@@ -2,15 +2,14 @@
 
 A new Flutter project.
 
-## Getting Started
+## Correr en dev
 
-This project is a starting point for a Flutter application.
+1. Clonar el repositorio.
+2. Crear una copia del ```.env.template``` y renombrarlo a ```.env``` y cambiar las variables de entorno.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📱 Vista Previa
+[![imagen](lib/assets/chat-ia.png)]
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+

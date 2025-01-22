@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
-
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 
 class ChatScreenIa extends StatefulWidget {
@@ -39,7 +39,8 @@ class _ChatWidgetState extends State<ChatWidget> {
   final TextEditingController _textController = TextEditingController();
   final FocusNode _textFieldFocus = FocusNode();
   bool _loading = false;
-  static var apiKey = 'AIzaSyD_VCpIFCA_bwDjPtlW1o0NpGms9pOiBBE';
+  
+ String apiKey = dotenv.env['API_KEY'] ?? 'Clave por defecto';
 
   @override
   void initState() {
